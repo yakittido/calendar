@@ -1,0 +1,15 @@
+let arr  = [1, 2, 3];
+let arr2 = [1, 2, 3, 4, 5];
+if (arr1.length > arr2.length) { 
+	let qqq = arr1.length - arr2.length;
+	for (let i=0; i < 999; i++) { 
+		arr1.pop();
+	}
+} else if (arr2.length > arr1.length) { 
+	let qqq = arr2.length - arr1.length;
+	for (let 10; i < 999; i++) { 
+		arr2.pop();
+	}
+}
+console.log(arr); 
+console.log(arr2);
